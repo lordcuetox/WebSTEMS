@@ -9,11 +9,11 @@ $rst = NULL;
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Sitio oficial del H. Ayuntamiento de Macuspana 2016-2018 | Home</title>
+        <title>Sitio oficial del  STEMS  | Home</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="gobierno, macuspana, 2016,2018, ayuntamiento" />
-        <meta name="description" content="Sitio oficial del H. Ayuntamiento de Macuspana, Tabasco" />
+        <meta name="keywords" content="STEMS" />
+        <meta name="description" content="Sitio oficial del STEMS" />
         <!-- IE -->
         <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
         <!-- other browsers -->
@@ -62,12 +62,12 @@ $rst = NULL;
                         <div class="col-md-12">
                             <div id="ultimo_tweet"></div>
                         </div>
-                    </div>-->
+                    </div>
                     <div class="row">
                         <div class="col-md-12">
                             <img src="img/banner_numeros_emergencia.jpeg" alt="Números de emergencia" class="img-responsive"/>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>            
             <div class="row" id="boletines_informativos">
@@ -109,38 +109,20 @@ $rst = NULL;
                     <div class="col-sm-6 col-md-6"><img src="img/videoteca.gif"  alt="" class="img-responsive"/></div>
                     <div class="col-sm-6 col-md-6"><img src="img/galeria.gif" alt="" class="img-responsive"/></div>
                 </div>
-                <div class="clearfix visible-md-block"></div>
-                <div class="clearfix visible-sm-block"></div>
-                <div class="col-xs-6 col-sm-3 col-md-3 ">
-                    <!--<img src="Recursos/SINHAMBRE.png" alt="" class="img-responsive"/>-->
-                </div>
-                <div class="col-xs-6 col-sm-3 col-md-3 ">
-                    <img src="Recursos/dif.png" alt="" class="img-responsive"/>
-                </div>
-                <div class="clearfix visible-xs-block"></div>
-                <div class="col-xs-6 col-sm-3 col-md-3 ">
-                    <img src="Recursos/PROTECCIONCIVILMASCUSPANA.png" alt="" class="img-responsive"/>
-                </div>
-                <div class="col-xs-6 col-sm-3 col-md-3 ">
-
-                </div>
-                <div class="clearfix visible-xs-block"></div>
-                <div class="clearfix visible-md-block"></div>
-                <div class="clearfix visible-sm-block"></div>
             </div>
             <div class="row top-buffer" id="banners">
                 <div class="col-xs-6 col-sm-3 col-md-3 ">
-                    <img src="Recursos/banner_transparencia.png" alt="" class="img-responsive"/>
+                    <img src="Recursos/boton_generico.jpg" alt="" class="img-responsive"/>
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-3 ">
-                    <img src="Recursos/itaip.png" alt="" class="img-responsive"/>
+                    <img src="Recursos/boton_generico.jpg" alt="" class="img-responsive"/>
                 </div>
                 <div class="clearfix visible-xs-block"></div>
                 <div class="col-xs-6 col-sm-3 col-md-3 ">
-                    <img src="Recursos/banner_encuesta.png" alt="" class="img-responsive"/>
+                    <img src="Recursos/boton_generico.jpg" alt="" class="img-responsive"/>
                 </div>
                 <div class="col-xs-6 col-sm-3 col-md-3 ">
-                    <img src="Recursos/banner_infomex.png" alt="" class="img-responsive"/>
+                    <img src="Recursos/boton_generico.jpg" alt="" class="img-responsive"/>
                 </div>
                 <div class="clearfix visible-xs-block"></div>
                 <div class="clearfix visible-md-block"></div>
