@@ -72,8 +72,8 @@ $rst = UtilDB::ejecutaConsulta($sql);
         <title>Gestor de contenido | Transparencia</title>
         <meta charset="utf-8">
         <meta name="author" content="Webxico & Cuetox">
-        <meta name="description" content="Página oficial del Ayuntamiento de Macuspana">
-        <meta name="keywords" content="Página oficial del Ayuntamiento de Macuspana">
+        <meta name="description" content="Página oficial del STEMS">
+        <meta name="keywords" content="Página oficial del STEMS">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">

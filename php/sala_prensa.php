@@ -7,11 +7,11 @@ $anio = (int) date("Y");
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Sitio oficial del H. Ayuntamiento de Macuspana 2016-2018 | Sala de prenssa</title>
+        <title>Sitio oficial del STEMS | Sala de prenssa</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="gobierno, macuspana, 2016,2018, ayuntamiento" />
-        <meta name="description" content="Sitio oficial del H. Ayuntamiento de Macuspana, Tabasco. Transparencia" />
+        <meta name="keywords" content="STEMS" />
+        <meta name="description" content="SETEMS. Transparencia" />
         <!-- IE -->
         <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico" />
         <!-- other browsers -->

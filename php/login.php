@@ -27,11 +27,11 @@ if (isset($_POST['xAccion'])) {
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Gestor de contenido ayuntamientodemacuspana.gob.mx| Login</title>
+        <title>Gestor de contenido STEMS| Login</title>
         <meta charset="utf-8">
         <meta name="author" content="Webxico & Cuetox">
-        <meta name="description" content="Gestor de contenido ayuntamientodemacuspana.gob.mx">
-        <meta name="keywords" content="Ayuntamiento de Macuspana 2016-2018">
+        <meta name="description" content="Gestor de contenido STEMS">
+        <meta name="keywords" content="STEMS">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="">

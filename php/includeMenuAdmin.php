@@ -10,7 +10,7 @@ $origen = $_GET['q'];
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="cat_noticias.php">H. Ayuntamiento de Macuspana 2016-2018 | Usuario en sesión: <span class="fa fa-user"></span>&nbsp;&nbsp;<?php echo(isset($_SESSION['nombre']) ? $_SESSION['nombre']:"");?></a>
+        <a class="navbar-brand" href="cat_noticias.php">STEMS | Usuario en sesión: <span class="fa fa-user"></span>&nbsp;&nbsp;<?php echo(isset($_SESSION['nombre']) ? $_SESSION['nombre']:"");?></a>
     </div>
     <!-- /.navbar-header -->
     <div class="navbar-default sidebar" role="navigation">

@@ -14,11 +14,11 @@ if (isset($_GET['id'])) {
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Sitio oficial del H. Ayuntamiento de Macuspana 2016-2018 | Boletín informativo</title>
+        <title>Sitio oficial del STEMS | Boletín informativo</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="gobierno, macuspana, 2016,2018, ayuntamiento" />
-        <meta name="description" content="Sitio oficial del H. Ayuntamiento de Macuspana, Tabasco. Boletín informativo" />
+        <meta name="keywords" content="STEMS" />
+        <meta name="description" content="Sitio oficial del STEMS" />
         <!-- IE --> 
         <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico" />
         <!-- other browsers -->
@@ -36,15 +36,15 @@ if (isset($_GET['id'])) {
                     if ($noticia->getCveNoticia() > 0) {
                         ?>
                         <h1 class="text-center"><?php echo($noticia->getTitulo()); ?></h1>
-                        <div id="carousel-noticias-macuspana" class="carousel slide" data-ride="carousel">
+                        <div id="carousel-noticias-stems" class="carousel slide" data-ride="carousel">
                             <?php
                             if ($noticia->getFotoPortada() != "" && $noticia->getFoto1() != "" && $noticia->getFoto2() != "" && $noticia->getFoto3() != "") {
                                 ?>
                                 <ol class="carousel-indicators">
-                                    <li data-target="#carousel-noticias-macuspana" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carousel-noticias-macuspana" data-slide-to="1"></li>
-                                    <li data-target="#carousel-noticias-macuspana" data-slide-to="2"></li>
-                                    <li data-target="#carousel-noticias-macuspana" data-slide-to="3"></li>
+                                    <li data-target="#carousel-noticias-stems" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-noticias-stems" data-slide-to="1"></li>
+                                    <li data-target="#carousel-noticias-stems" data-slide-to="2"></li>
+                                    <li data-target="#carousel-noticias-stems" data-slide-to="3"></li>
                                 </ol>
 
                                 <!-- Wrapper for slides -->
@@ -66,9 +66,9 @@ if (isset($_GET['id'])) {
                             } elseif ($noticia->getFotoPortada() != "" && $noticia->getFoto1() != "" && $noticia->getFoto2() != "") {
                                 ?>
                                 <ol class="carousel-indicators">
-                                    <li data-target="#carousel-noticias-macuspana" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carousel-noticias-macuspana" data-slide-to="1"></li>
-                                    <li data-target="#carousel-noticias-macuspana" data-slide-to="2"></li>
+                                    <li data-target="#carousel-noticias-stems" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-noticias-stems" data-slide-to="1"></li>
+                                    <li data-target="#carousel-noticias-stems" data-slide-to="2"></li>
                                 </ol>
 
                                 <!-- Wrapper for slides -->
@@ -87,8 +87,8 @@ if (isset($_GET['id'])) {
                             } elseif ($noticia->getFotoPortada() != "" && $noticia->getFoto1() != "") {
                                 ?>
                                 <ol class="carousel-indicators">
-                                    <li data-target="#carousel-noticias-macuspana" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carousel-noticias-macuspana" data-slide-to="1"></li>
+                                    <li data-target="#carousel-noticias-stems" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-noticias-stems" data-slide-to="1"></li>
                                 </ol>
                                 <div class="carousel-inner" role="listbox">
                                     <div class="item active">
@@ -112,11 +112,11 @@ if (isset($_GET['id'])) {
                             <!-- SI AL MENOS TIENE 2 IMAGENES QUE MUESTRE LOS CONTROLES DE NAVEGACION ATRAS Y ADELANTE -->
                             <?php if ($noticia->getFoto1() != "" && $noticia->getFoto2() != "") { ?>
                                 <!-- Controls -->
-                                <a class="left carousel-control" href="#carousel-noticias-macuspana" role="button" data-slide="prev">
+                                <a class="left carousel-control" href="#carousel-noticias-stems" role="button" data-slide="prev">
                                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                                     <span class="sr-only">Previous</span>
                                 </a>
-                                <a class="right carousel-control" href="#carousel-noticias-macuspana" role="button" data-slide="next">
+                                <a class="right carousel-control" href="#carousel-noticias-stems" role="button" data-slide="next">
                                     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                                     <span class="sr-only">Next</span>
                                 </a>

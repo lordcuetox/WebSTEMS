@@ -50,11 +50,11 @@ $rst = UtilDB::ejecutaConsulta($sql);
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Gestor de contenido del H. Ayuntamiento de Macuspana 2016-2018 | Eventos</title>
+        <title>Gestor de contenido del STEMS CECyTE | Eventos</title>
         <meta charset="utf-8">
         <meta name="author" content="Webxico & Cuetox">
-        <meta name="description" content="Gestor de contenido del H. Ayuntamiento de Macuspana 2016-2018">
-        <meta name="keywords" content="ayuntamiento, Macuspana">        
+        <meta name="description" content="Gestor de contenido del STEMS">
+        <meta name="keywords" content="STEMS">        
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <!-- IE -->
         <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico" />

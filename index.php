@@ -28,7 +28,7 @@ $rst = NULL;
             <?php require_once 'php/include_header.php';?>
             <div class="row top-buffer" >
                 <div class="col-md-12">
-                    <div id="macuspana_layerslider">
+                    <div id="stems_layerslider">
                         <?php
                         $sql = "SELECT * FROM eventos WHERE foto1 IS NOT NULL AND activo = 1 ORDER BY cve_evento DESC";
                         $rst = UtilDB::ejecutaConsulta($sql);
@@ -157,7 +157,7 @@ $rst = NULL;
                     $(this).removeData('bs.modal');
                 });
 
-                $('#macuspana_layerslider').layerSlider({
+                $('#stems_layerslider').layerSlider({
                     navStartStop: false,
                     navButtons: false,
                     autoStart: true,
