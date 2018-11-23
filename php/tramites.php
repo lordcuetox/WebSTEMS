@@ -8,11 +8,11 @@ $rst = NULL;
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Sitio oficial del H. Ayuntamiento de Macuspana 2016-2018 | Trámites y servicios al ciudadano</title>
+        <title>Sitio oficial del STEMS | Trabajo Sindical</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="gobierno, macuspana, 2016,2018, ayuntamiento" />
-        <meta name="description" content="Sitio oficial del H. Ayuntamiento de Macuspana, Tabasco. Trámites y servicios al ciudadano" />
+        <meta name="keywords" content="STEMS" />
+        <meta name="description" content="STEMS. Trabajo Sindical" />
         <!-- IE -->
         <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico" />
         <!-- other browsers -->
