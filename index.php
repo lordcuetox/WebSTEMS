@@ -69,8 +69,9 @@ $rst = NULL;
                         </div>
                     </div>-->
                 </div>
-            </div>            
-            <div class="row" id="boletines_informativos">
+            </div>    
+            <div class="col-md-12"><h3>Boletines informativos</h3></div>
+            <div class="col-md-12" id="boletines_informativos">
                 <?php
                 $sql = "SELECT * FROM noticias WHERE foto_portada IS NOT NULL AND activo = 1 ORDER BY cve_noticia DESC ";
                 $rst = UtilDB::ejecutaConsulta($sql);
