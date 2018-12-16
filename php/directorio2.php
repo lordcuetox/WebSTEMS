@@ -1,5 +1,5 @@
 <?php 
-$origin = "ayuntamiento"; 
+$origin = "directorio"; 
 require_once 'contador_visitas.php';
 ?>
 <!DOCTYPE html>
@@ -26,7 +26,9 @@ require_once 'contador_visitas.php';
 
                     <div class="col-md-12">
                                         <div class="col-sm-12 text-center regidores">
-                            <img class="img-responsive" src="../img/ayuntamiento/regidor_01.jpg"/>
+                                            <img class="img-responsive" src="../img/directorio/secretario_foto.jpg"/>
+                                            <h1>Profesor Candelario García Torres</h1>
+                                            <h2>Secretario General</h2>
                         </div>
 
                     </div>

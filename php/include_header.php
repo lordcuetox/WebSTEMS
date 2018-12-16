@@ -19,6 +19,12 @@ if (isset($origin) && $origin != "") {
                 <a href="https://www.facebook.com/" target="_blank"><img src="<?php echo($path); ?>Recursos/facebook-icon.png" alt="Facebook"/></a>&nbsp;&nbsp;
                 <a href="https://twitter.com/" target="_blank"><img src="<?php echo($path); ?>Recursos/twitter-icon.png" alt="Twitter"/></a>
             </div>
+            
+            
+            
+            
+            
+           
             <div class="col-md-12" >
                 <nav class="navbar navbar-default" >
                     <div class="container-fluid">
@@ -32,13 +38,27 @@ if (isset($origin) && $origin != "") {
                         </div>
                         <div id="navbar" class="navbar-collapse collapse" >
                             <ul class="nav navbar-nav" >
-                                <li  <?php echo($origin == "" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "index.php" : "../index.php"); ?>">Inicio</a></li>
-                                <li <?php echo($origin == "presidencia" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>presidencia.php">Mensaje del Secretario General</a></li>
-                                <li <?php echo($origin == "ayuntamiento" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>ayuntamiento.php">Directorio</a></li>
-                                <li <?php echo($origin == "dependencias" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>dependencias.php">Transparencia</a></li>
-                                <li <?php echo($origin == "tramites" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>tramites.php">Trabajo Sindical</a></li>
-                                <li <?php echo($origin == "sala_prensa" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>sala_prensa.php">Sala de Prensa</a></li>
-                                <li <?php echo($origin == "transparencia" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>transparencia.php">Formatos</a></li>
+                                <li  <?php echo($origin == "" ? "class=\"active\"" : ""); ?>>
+                                    <a href="<?php echo($origin == "" ? "index.php" : "../index.php"); ?>" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Inicio <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li <?php echo($origin == "historia" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>historia.php">Historia</a></li>
+                                
+                                        <li><a href="#">¿Quiénes somos?</a></li>
+                                        <li><a href="#">Misión</a></li>
+                                        <li><a href="#">Visión</a></li>
+                                        <li><a href="#">Objetivos</a></li>
+                                    </ul> 
+
+
+
+                                </li>
+
+                                <li <?php echo($origin == "mensaje" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>mensaje.php">Mensaje del Secretario General</a></li>
+                                <li <?php echo($origin == "directorio" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>directorio.php">Directorio</a></li>
+                                <li <?php echo($origin == "dependencias" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php" : ""); ?>index.php">Transparencia</a></li>
+                                <li <?php echo($origin == "tramites" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>index.php">Trabajo Sindical</a></li>
+                                <li <?php echo($origin == "sala_prensa" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>index.php">Sala de Prensa</a></li>
+                                <li <?php echo($origin == "transparencia" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>index.php">Formatos</a></li>
                             </ul>
                         </div>
                     </div>

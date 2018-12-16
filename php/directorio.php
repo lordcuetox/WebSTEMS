@@ -1,5 +1,5 @@
 <?php 
-$origin = "dependencias"; 
+$origin = "directorio"; 
 require_once 'contador_visitas.php';
 ?>
 <!DOCTYPE html>
@@ -29,7 +29,7 @@ require_once 'contador_visitas.php';
             .trailer_box:hover .desc h2 { bottom: 20px;}
             .trailer_box .desc .subtitle { display: inline-block; position: relative; bottom: 0; line-height: normal; letter-spacing: 1px; padding: 4px 8px; text-transform: uppercase; margin-bottom: 15px; -webkit-border-radius: 3px; border-radius: 3px; background-image: url(../img/stripes_10_w.png); }
             .trailer_box:hover .desc .subtitle { bottom: 20px; }
-            .trailer_box .desc .line { height: 1px; width: 0%; margin: 0 auto; background: #A94442; overflow: hidden; display: block; }
+            .trailer_box .desc .line { height: 1px; width: 0%; margin: 0 auto; background: #111; overflow: hidden; display: block; }
             .trailer_box:hover .desc .line { width: 60%; }
 
             /* Animation */
@@ -39,7 +39,7 @@ require_once 'contador_visitas.php';
             .trailer_box .desc h2 { -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
 
             .trailer_box .desc .subtitle {
-                background-color: #6c3f21;
+                background-color: #3B3B3B;
             }
 
             .trailer_box .desc .subtitle {
@@ -71,18 +71,18 @@ require_once 'contador_visitas.php';
                 <div class="col-md-12" >
 
                     <div class="col-md-12">
-                        <h1 class="text-center text-danger">Direcciones</h1>
+                        <h1 class="text-center text-muted">Directorio</h1>
                     </div>
                                         <div class="col-md-12">
                        
                             <div class="trailer_box">
                                 <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>   
                                 <div class="desc">
-                                    <div class="subtitle">SECRETARÍA DEL AYUNTAMIENTO</div>
+                                    <div class="subtitle">Secretaría General</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>DANIEL ALEJANDRO TORRES HERNÁNDEZ</h2>
+                            <h2>Candelario García Torres</h2>
                        
                  
                 
@@ -94,41 +94,41 @@ require_once 'contador_visitas.php';
                             <div class="trailer_box">
                                 <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>  
                                 <div class="desc">
-                                    <div class="subtitle">DIRECCIÓN DE FINANZAS</div>
+                                    <div class="subtitle">Cargo</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>BEATRIZ SALVADOR FELIX</h2>
+                            <h2>Nombre....</h2>
                         </div>
                         <div class="col-sm-3  ">
                             <div class="trailer_box">
                                 <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/> 
                                 <div class="desc">
-                                    <div class="subtitle">DIRECCIÓN DE PROGRAMACIÓN</div>
+                                    <div class="subtitle">Cargo</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>ALFONSO DE LA CRUZ GARCÍA</h2>
+                            <h2>Nombre....</h2>
                         </div>
                         <div class="col-sm-3 ">
                             <div class="trailer_box">
                                 <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
                                 <div class="desc">
-                                    <div class="subtitle">CONTRALORIA MUNICIPAL</div>
+                                    <div class="subtitle">Cargo</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>YOLY CECILIA LÓPEZ CARRERA</h2>
+                            <h2>Nombre</h2>
                         </div>
                                                 <div class="col-sm-3  ">
                             <div class="trailer_box">
                                 <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
                                 <div class="desc">
-                                    <div class="subtitle">DIRECCIÓN DE DESARROLLO</div>
+                                    <div class="subtitle">Cargo</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>DIMAS FALCÓN DE DIOS</h2>
+                            <h2>Nombre</h2>
                         </div>
                     </div>
                     <div class="col-md-12">
@@ -137,367 +137,282 @@ require_once 'contador_visitas.php';
                             <div class="trailer_box">
                                 <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
                                 <div class="desc">
-                                    <div class="subtitle">DIRECCIÓN DE FOMENTO ECONÓMICO Y TURISMO</div>
+                                    <div class="subtitle">Cargo</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>ELIAS ESPINOSA HERNÁNDEZ</h2>
+                            <h2>Nombre...</h2>
                         </div>
                         <div class="col-sm-3">
                             <div class="trailer_box">
                                 <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
                                 <div class="desc">
-                                    <div class="subtitle">DIRECCIÓN DE OBRAS, ORDENAMIENTO TERRITORIAL Y SERV. MUNICIPALES</div>
+                                    <div class="subtitle">Cargo</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>OSCAR PRIEGO FRANCO</h2>
+                            <h2>Nombre...</h2>
                         </div>
                         <div class="col-sm-3 ">
                             <div class="trailer_box">
                                 <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
                                 <div class="desc">
-                                    <div class="subtitle">DIRECCIÓN DE EDUCACIÓN, CULTURA Y RECREACIÓN</div>
+                                    <div class="subtitle">Cargo</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>JOSÉ ALFREDO SÁNCHEZ GARCÍA</h2>
+                            <h2>Nombre...</h2>
                         </div>
                                                 <div class="col-sm-3  ">
                             <div class="trailer_box">
                                 <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
                                 <div class="desc">
-                                    <div class="subtitle">DIRECCIÓN DE ADMINISTRACIÓN</div>
+                                    <div class="subtitle">Cargo</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>SHEILA SEGURA PERALES</h2>
+                            <h2>Nombre</h2>
+                        </div>
+                    </div>
+                    
+                    
+                   
+                    <div class="col-md-12">
+                        <h1 class="text-center text-muted">Coordinaciones</h1>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-sm-3  ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">Plantel 1</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
+                        </div>
+                        <div class="col-sm-3 ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">plantel 2</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
+                        </div>
+                        <div class="col-sm-3  ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">Plantel 3</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
+                        </div>
+                        <div class="col-sm-3 ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">Plantel 4</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <div class="col-sm-3  ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">Plantel 5</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
+                        </div>
+                        <div class="col-sm-3 ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">plantel 6</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
+                        </div>
+                        <div class="col-sm-3  ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">Plantel 7</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
+                        </div>
+                        <div class="col-sm-3 ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">Plantel 8</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
                         </div>
                     </div>
                     <div class="col-md-12">
+                        <div class="col-sm-3  ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">Plantel 9</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
+                        </div>
+                        <div class="col-sm-3 ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">plantel 10</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
+                        </div>
+                        <div class="col-sm-3  ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">Plantel 11</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
+                        </div>
+                        <div class="col-sm-3 ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">Plantel 12</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-sm-3  ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">Plantel 13</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
+                        </div>
+                        <div class="col-sm-3 ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">plantel 14</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
+                        </div>
+                        <div class="col-sm-3  ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">Plantel 15</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
+                        </div>
+                        <div class="col-sm-3 ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">Plantel 16</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
+                        </div>
+                    </div>
+                                        <div class="col-md-12">
+                        <div class="col-sm-3  ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">Plantel 17</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
+                        </div>
+                        <div class="col-sm-3 ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">plantel 18</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
+                        </div>
+                        <div class="col-sm-3  ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">Plantel 19</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
+                        </div>
+                        <div class="col-sm-3 ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">Plantel 20</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
+                        </div>
+                    </div>
+                                        <div class="col-md-12">
+                        <div class="col-sm-3  ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">Plantel 21</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Nombre</h2>
+                        </div>
+                        <div class="col-sm-3 ">
 
-                        <div class="col-sm-3 ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">DIRECCIÓN DE SEGURIDAD PÚBLICA</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>MARCOS GÓMEZ OSORIO</h2>
                         </div>
                         <div class="col-sm-3  ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">DIRECCIÓN DE TRÁNSITO</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>ÀLVARO BASSO OSORIO</h2>
-                        </div>
-                        <div class="col-sm-3 ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">DIRECCIÓN DE ASUNTOS JURÍDICOS</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>JONATHAN SAMIR ULIN PÉREZ</h2>
-                        </div>
-                                                <div class="col-sm-3  ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">DIRECCIÓN DE ATENCIÓN CIUDADANA</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>- - - - - - - -</h2>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
 
-                        <div class="col-sm-3 ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">DIRECCIÓN DE ATENCIÓN A LAS MUJERES</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>TILA DEL CARMEN MENDOZA MACOSAY</h2>
-                        </div>
-                        <div class="col-sm-3  ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">DIRECCIÓN DE PROTECCCIÓN AMBIENTAL Y DESARROLLO SUSTENTABLE</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>HUMBERTO ZURITA HERNÁNDEZ</h2>
-                        </div>
-                        <div class="col-sm-3 ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">UNIDAD DE PROTECCIÓN CIVIL</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>FIDEL SILVAN MENDEZ</h2>
-                        </div>
-                                                <div class="col-sm-3  ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">UNIDAD DE TRANSPARENCIA Y ACCESO A LA INFORMACIÓN</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>JUAN MANUEL RODRÍGUEZ MORALES</h2>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-
-                        <div class="col-sm-3 ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">SECRETARIO TÉCNICO</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>MARCO ANTONIO CARRERA CRUZ</h2>
-                        </div>
-                        <div class="col-sm-3  ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">SECRETARIO PARTICULAR</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>MIGUEL ÁNGEL ALCUDIA OCAÑA</h2>
-                        </div>
-                        <div class="col-sm-3 ">
-
-                        </div>
-                        <div class="col-sm-3 ">
-
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <h1 class="text-center text-danger">Oficialias</h1>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="col-sm-3  ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">01 MACUSPANA</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>RODRIGO RODRÍGUEZ GORGORITA</h2>
-                        </div>
-                        <div class="col-sm-3 ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">02 VILLA TEPETITAN</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>JENY SASTRE OCAÑA</h2>
-                        </div>
-                        <div class="col-sm-3  ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">03 VILLA BENITO JUÁREZ</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>LUCIA FERIA</h2>
-                        </div>
-                        <div class="col-sm-3 ">
-                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">04 CIUDAD PEMEX</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>MARTHA ELENA</h2>
-                        </div>
-                    </div
-                    <div class="col-md-12">
-                        <h1 class="text-center text-danger">Coordinaciones</h1>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="col-sm-3  ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">COORDINACIÓN DEL DIF MUNICIPAL</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>MARÍA CANDELARIA BECERRA DE DIOS</h2>
-                        </div>
-                        <div class="col-sm-3 ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">COORDINACIÓN DEL INSTITUTO DE VIVIENDA DE MACUSPANA</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>ROSA LILI ZACARIAS ALVAREZ</h2>
-                        </div>
-                        <div class="col-sm-3  ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">COORDINACIÓN DE SAPAN</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>PEDRO MANUEL LÓPEZ LÓPEZ</h2>
-                        </div>
-                        <div class="col-sm-3 ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">COORDINACIÓN DE REGLAMENTO</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>FRANCISCO GÓMEZ LEON</h2>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="col-sm-3  ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">COORDINACIÓN DEL RAMO 33</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>JOSÉ JESÚS ÁLVAREZ</h2>
-                        </div>
-                        <div class="col-sm-3 ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">COORDINACIÓN DE SERVICIOS MUNICIPALES</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>ROBERTO SOBERANO</h2>
-                        </div>
-                        <div class="col-sm-3  ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">COORDINACIÓN DE BIBLIOTECAS</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>- - - - -</h2>
-                        </div>
-                        <div class="col-sm-3 ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">COORDINACIÓN DE CASA DE LA CULTURA</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>- - - - -</h2>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="col-sm-3  ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">COORDINACIÓN DE DEPORTES</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>- - - - -</h2>
-                        </div>
-                        <div class="col-sm-3 ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">COORDINACIÓN DE DELEGADOS</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>DOMINGO PÉREZ CORNELIO</h2>
-                        </div>
-                        <div class="col-sm-3  ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">COORDINACIÓN DE CULTURA CÍVICA</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>JOSÉ LUIS BOLÓN PÉREZ</h2>
-                        </div>
-                        <div class="col-sm-3 ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">COORDINACIÓN DE LA JUNTA MUNICIPAL DEL AYUNTAMIENTO</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>ROBERTO FALCÓN HERNÁNDEZ</h2>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="col-sm-3  ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">COORDINACIÓN DE LA TENENCIA DE LA TIERRA</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>FELIPE PERALTA MENDOZA</h2>
-                        </div>
-                        <div class="col-sm-3 ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">COORDINACIÓN DE COMUNICACIÓN SOCIAL</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>VÍCTOR MORALES GARCÍA</h2>
-                        </div>
-                        <div class="col-sm-3  ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">COORDINACIÓN DE SALUD ANIMAL</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>LEONARDO MARTÍNEZ ALEJANDRO</h2>
                         </div>
                         <div class="col-sm-3 ">
 
                         </div>
                     </div>
+    
 
 
 

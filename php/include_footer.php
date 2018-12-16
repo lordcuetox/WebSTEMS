@@ -23,8 +23,8 @@ if (isset($origin) && $origin != "") {
             <div class="col-md-3">
                 <ul style="list-style: none;text-transform: uppercase; color:#FFFEFF;">
                     <li><a href="<?php echo($origin == "" ? "index.php" : "../index.php"); ?>">Inicio</a></li>
-                    <li><a href="<?php echo($origin == "" ? "php/" : ""); ?>presidencia.php">Mensaje del Secretario General</a></li>
-                    <li><a href="<?php echo($origin == "" ? "php/" : ""); ?>ayuntamiento.php">Directorio</a></li>
+                    <li><a href="<?php echo($origin == "" ? "php/" : ""); ?>mensaje.php">Mensaje del Secretario General</a></li>
+                    <li><a href="<?php echo($origin == "" ? "php/" : ""); ?>directorio.php">Directorio</a></li>
                     <li><a href="<?php echo($origin == "" ? "php/" : ""); ?>dependencias.php">Transparencia</a></li>
                     <li><a href="<?php echo($origin == "" ? "php/" : ""); ?>tramites.php">Trabajo Sindical</a></li>
                     <li><a href="<?php echo($origin == "" ? "php/" : ""); ?>sala_prensa.php">Sala de prensa</a></li>
