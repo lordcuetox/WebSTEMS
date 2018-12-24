@@ -1,6 +1,10 @@
 <?php
 $origin = "sala_prensa";
-require_once 'contador_visitas.php';
+require_once '../clases/UtilDB.php';
+require_once '../php/contador_visitas.php';
+$sql = "";
+$html = "";
+$rst = NULL;
 $mtz_meses = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
 $anio = (int) date("Y");
 ?>
@@ -21,13 +25,13 @@ $anio = (int) date("Y");
         <link href="../css/municipio1.css" rel="stylesheet"/>
         <link href="../js/jQuery/jquery-ui-1.11.4/jquery-ui.min.css" rel="stylesheet"/>
         <style>
-            
+
             /* Smartphones*/
             @media (max-width:767px)
             {
                 #boletines_informativos div div div figure figcaption { margin-bottom: 15px;}
             }
-            
+
             /* Desktops Medium*/
             @media (min-width:992px)
             {
@@ -48,7 +52,6 @@ $anio = (int) date("Y");
                     <div class="row">
                         <div class="col-sm-12 col-md-4 titulo_principal titulo_secundario">
                             <p class="to_uppercase">Boletines inform<span>ativos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
-                            <h1>AL CIUDADANO</h1>
                             <h1 class="mes_anio"><?php echo(($mtz_meses[(int) date("m") - 1]) . " " . $anio); ?></h1>
                         </div>
                         <div class="col-sm-12 col-md-8">
@@ -90,120 +93,65 @@ $anio = (int) date("Y");
                         </div>
                     </div>
                 </div>
-                <div class="col-md-12 col-lg-9 border_top">
+                <div class="col-md-12 col-lg-12 border_top">
                     <div class="row" id="boletines_informativos">
-                        <div class="col-md-6 col-lg-6 top-buffer">
-                            <div class="row">
-                                <div class="col-sm-5 col-md-5 col-lg-5">
-                                    <figure>
-                                        <img src="../img/boletin/5.jpg" alt="IMPLEMENTAN EN MACUSPANA OPERATIVO 'CONDUCE SIN ALCOHOL' BAJO LA COORDINACION DE LA POLICIA ESTATAL DE CAMINOS CON SEGURIDAD PUBLICA Y TRANSITO MUNICIPAL." class="img-responsive"/>
-                                        <figcaption>06 Febrero 2016</figcaption>
-                                    </figure>
-                                </div>
-                                <div class="col-sm-7 col-md-7 col-lg-7">
-                                    <p class="text-justify"><strong>IMPLEMENTAN EN MACUSPANA OPERATIVO "CONDUCE SIN ALCOHOL" BAJO LA COORDINACION DE LA POLICIA ESTATAL DE CAMINOS CON SEGURIDAD PUBLICA Y TRANSITO MUNICIPAL.</strong> </p>
-                                    <p class="text-justify">A partir de las 6 de la tarde del viernes, enfrente del edificio del Palacio Municipal, arrancó el operativo "Conduce sin alcohol" dirigido por la Policía Estatal de Caminos en coordinación con las direcciones municipales de Seguridad Pública y Tránsito, como parte ...</p>
-                                    <a href="javascript:void(0);" data-toggle="modal" data-remote="../php/boletin_informativo_5.php?o=<?php echo($origin); ?>" data-target="#mDetalleBoletin" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Leer más</a>
-                                </div>                                
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-6 top-buffer">
-                            <div class="row">
-                                <div class="col-sm-5 col-md-5 col-lg-5 ">
-                                    <figure>
-                                        <img src="../img/boletin/1.jpg" alt="EL GOBIERNO MUNICIPAL DE MACUSPANA FOMENTA EL DEPORTE CIENCIA" class="img-responsive"/>
-                                        <figcaption>16 Enero 2016</figcaption>
-                                    </figure>
-                                </div>
-                                <div class="col-sm-7 col-md-7 col-lg-7">
-                                    <p class="text-justify"><strong>EL GOBIERNO MUNICIPAL DE MACUSPANA FOMENTA EL DEPORTE CIENCIA</strong> </p>
-                                    <p class="text-justify">Con la presencia de la señora Crystel Hernández de Rovirosa, presidenta del DIF municipal, hoy sábado se realizó el “Torneo Estatal de Invierno de Ajedrez “en diferentes categorías, donde se contó con la participación de sesenta ajedrecistas de toda la entidad, los cuales lograron demostrar sus conocimientos y destrezas en el también llamado deporte ciencia.</p>
-                                    <a href="javascript:void(0);" data-toggle="modal" data-remote="../php/boletin_informativo_1.php?o=<?php echo($origin); ?>" data-target="#mDetalleBoletin" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Leer más</a>
-                                </div>                                
-                            </div>                            
-                        </div>
+                        
+                        
+                        
+                        <?php
+                $sql = "SELECT foto_portada,titulo,noticia_corta,cve_noticia,date_format(fecha_grabo,\"%d-%m-%Y\")as fecha_grabo FROM noticias WHERE foto_portada IS NOT NULL AND activo = 1 ORDER BY cve_noticia";
+                $rst = UtilDB::ejecutaConsulta($sql);
+                $count = 1;
+                if ($rst->rowCount() > 0) {
+                    foreach ($rst as $row) {
+   
+                        
+                         $html .= "<div class=\"col-md-6 col-lg-6 top-buffer\">";
+                           $html .= "<div class=\"row\">";
+                            $html .= "<div class=\"col-sm-5 col-md-5 col-lg-5\">";
+                             $html .= "<figure>";
+                            $html .= "<img src = \"" ."..\\".$row['foto_portada'] . "\" alt = \"" . $row['titulo'] . "\" class = \"img-responsive\"/>";
+                               $html .= " <figcaption>".($row['fecha_grabo'])."</figcaption>";
+                              $html .= "</figure></div>";
+                              $html .= "<div class=\"col-sm-7 col-md-7 col-lg-7\">";
+                              $html .= "<p class=\"text-justify\"><strong>".$row['titulo']."</strong> </p>";
+                              $html .= "<p class=\"text-justify\">".$row['noticia_corta']."...</p>";
+                    $html .= "<a href = \"boletin_informativo.php?id=" . $row['cve_noticia'] . "\" class = \"btn btn-success\"><span class = \"glyphicon glyphicon-plus\"></span> Leer más</a>";
+                              $html .= "</div>  </div> </div>";      
+                                    
+                                                  if ($count % 2 == 0) {
+                            $html .= "<div class=\"clearfix visible-md-block visible-lg-block\"></div>";
+                        }
+                    }
+                }
+               
+                $rst->closeCursor();
+                $count = 0;
+                echo($html);
+                ?>         
+
                         <div class="clearfix visible-md-block visible-lg-block"></div>
-                        <div class="col-md-6 col-lg-6 top-buffer">
-                            <div class="row">
-                                <div class="col-sm-5 col-md-5 col-lg-5">
-                                    <figure>
-                                        <img src="../img/boletin/2.png" alt="15 DIAS DE ACTIVIDADES DEL PRESIDENTE MUNICIPAL JOSE EDUARDO 'CUCO' ROVIROSA RAMIREZ" class="img-responsive"/>
-                                        <figcaption>16 Enero 2016</figcaption>
-                                    </figure>
-                                </div>
-                                <div class="col-sm-7 col-md-7 col-lg-7">
-                                    <p class="text-justify"><strong>15 DIAS DE ACTIVIDADES DEL PRESIDENTE MUNICIPAL JOSE EDUARDO “CUCO” ROVIROSA RAMIREZ</strong></p>
-                                    <p class="text-justify"> “Estoy comprometido a que mi gobierno sea de intensa y estrecha comunicación con el pueblo, por lo cual estaré informando puntualmente de todas y cada una de las acciones emprendidas para cambiarle el rostro a Macuspana, para responder a esa confianza y apoyo que he encontrado en la sociedad, la cual se encontraba muy agraviada por...</p>
-                                    <a href="javascript:void(0);" data-toggle="modal" data-remote="../php/boletin_informativo_2.php?o=<?php echo($origin); ?>" data-target="#mDetalleBoletin" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Leer más</a>
-                                </div>                                
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-6 top-buffer">
-                            <div class="row">
-                                <div class="col-sm-5 col-md-5 col-lg-5">
-                                    <figure>
-                                        <img src="../img/boletin/3.jpg" alt="PROMUEVE GOBIERNO DE MACUSPANA REFORZAMIENTO DE LA CULTURA DE LA SEGURIDAD Y EL RESPETO A LA LEY DE TRANSITO Y VIALIDAD" class="img-responsive"/>
-                                        <figcaption>18 Enero 2016</figcaption>
-                                    </figure>
-                                </div>
-                                <div class="col-sm-7 col-md-7 col-lg-7">                                    
-                                    <p class="text-justify"><strong>PROMUEVE GOBIERNO DE MACUSPANA REFORZAMIENTO DE LA CULTURA DE LA SEGURIDAD Y EL RESPETO A LA LEY DE TRANSITO Y VIALIDAD</strong></p>
-                                    <p class="text-justify">Con el fin de brindar una mayor protección y seguridad a la ciudadanía, el Ayuntamiento de Macuspana, a través de la dirección de Tránsito Municipal, que dirige Felicito Cruz Jiménez, informa a la población en general que a partir del 1 de febrero del presente año, iniciarán los operativos de tránsito vial en... </p>
-                                    <a href="javascript:void(0);" data-toggle="modal" data-remote="../php/boletin_informativo_3.php?o=<?php echo($origin); ?>" data-target="#mDetalleBoletin" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Leer más</a>
-                                </div>                                
-                            </div>                            
-                        </div>
-                        <div class="clearfix visible-md-block visible-lg-block"></div>
-                        <div class="col-md-6 col-lg-6 top-buffer">
-                            <div class="row">
-                                <div class="col-sm-5 col-md-5 col-lg-5">
-                                    <figure>
-                                        <img src="../img/boletin/4.jpg" alt="RESTABLECIMIENTO DE SERVICIOS MUNICIPALES, BACHEO Y AGUA DE CALIDAD PARA LA POBLACIÓN" class="img-responsive"/>
-                                        <figcaption>31 Diciembre 2015</figcaption>
-                                    </figure>
-                                </div>
-                                <div class="col-sm-7 col-md-7 col-lg-7">                                    
-                                    <p class="text-justify"><strong>RESTABLECIMIENTO DE SERVICIOS MUNICIPALES, BACHEO Y AGUA DE CALIDAD PARA LA POBLACIÓN</strong></p>
-                                    <p class="text-justify">Ante el colapso de los servicios municipales por el conflicto laboral de trabajadores del Ayuntamiento durante las últimas semanas, luego de tomar protesta como presidente municipal constitucional, José Eduardo “Cuco” Rovirosa Ramírez, se comprometió a reactivar en los inmediato el suministro de agua potable de calidad, la recolección de la basura...</p>
-                                    <a href="javascript:void(0);" data-toggle="modal" data-remote="../php/boletin_informativo_4.php?o=<?php echo($origin); ?>" data-target="#mDetalleBoletin" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Leer más</a>
-                                </div>                                
-                            </div>
-                        </div>
-                        <!--  Espacio para cuando haya otro boletin -->
-                        <!--
-                        <div class="col-md-6 col-lg-6 top-buffer">
-                            <div class="row">
-                                <div class="col-sm-5 col-md-5 col-lg-5">
-                                    <img src="../img/boletin/3.jpg" alt="Boletin3" class="img-responsive"/>
-                                </div>
-                                <div class="col-sm-7 col-md-7 col-lg-7">                                    
-                                    <p class="text-justify"><strong>PROMUEVE GOBIERNO DE MACUSPANA REFORZAMIENTO DE LA CULTURA DE LA SEGURIDAD Y EL RESPETO A LA LEY DE TRANSITO Y VIALIDAD </strong></p>
-                                    <p class="text-justify">Con el fin de brindar una mayor protección y seguridad a la ciudadanía, el Ayuntamiento de Macuspana, a través de la dirección de Tránsito Municipal, que dirige Felicito Cruz Jiménez, informa a la población en general que a partir del 1 de febrero del presente año, iniciarán los operativos de tránsito vial en... </p>
-                                    <a href="javascript:void(0);" data-toggle="modal" data-remote="../php/boletin_informativo_3.php?o=<?php echo($origin); ?>" data-target="#mDetalleBoletin" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Leer más</a>
-                                </div>                                
-                            </div>                            
-                        </div>
-                        <div class="clearfix visible-md-block visible-lg-block"></div>
-                        -->
+
+
                     </div>
                 </div>
-                <div class="col-md-12 col-lg-3">
-                    <div class="row banners">
-                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-12 top-buffer">
-                            <img src="../img/sala_prensa/btn_comunicados.jpg" alt="Comunicados" class="img-responsive"/>
-                        </div>
-                        <div class="clearfix visible-xs-block visible-lg-block"></div>
-                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-12 top-buffer">
-                            <img src="../img/sala_prensa/btn_avisos_importantes.jpg" alt="Avisos importantes" class="img-responsive"/>
-                        </div>
-                        <div class="clearfix visible-xs-block visible-lg-block"></div>
-                        <div class="clearfix visible-sm-block visible-md-block"></div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top-buffer datepicker">
-                            <div id="datepicker"></div>
-                        </div>
-                        <div class="clearfix visible-xs-block visible-lg-block"></div>
-                    </div>
-                </div>
+                <!-- <div class="col-md-12 col-lg-3">
+                     <div class="row banners">
+                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-12 top-buffer">
+                             <img src="../img/sala_prensa/btn_comunicados.jpg" alt="Comunicados" class="img-responsive"/>
+                         </div>
+                         <div class="clearfix visible-xs-block visible-lg-block"></div>
+                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-12 top-buffer">
+                             <img src="../img/sala_prensa/btn_avisos_importantes.jpg" alt="Avisos importantes" class="img-responsive"/>
+                         </div>
+                         <div class="clearfix visible-xs-block visible-lg-block"></div>
+                         <div class="clearfix visible-sm-block visible-md-block"></div>
+                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 top-buffer datepicker">
+                             <div id="datepicker"></div>
+                         </div>
+                         <div class="clearfix visible-xs-block visible-lg-block"></div>
+                     </div>
+                 </div>-->
             </div>
             <div class="row">
                 <div class="col-md-12">

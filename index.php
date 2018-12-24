@@ -73,7 +73,7 @@ $rst = NULL;
             <div class="col-md-12"><h3>Boletines informativos</h3></div>
             <div class="col-md-12" id="boletines_informativos">
                 <?php
-                $sql = "SELECT * FROM noticias WHERE foto_portada IS NOT NULL AND activo = 1 ORDER BY cve_noticia DESC ";
+                $sql = "SELECT * FROM noticias WHERE foto_portada IS NOT NULL AND activo = 1 ORDER BY cve_noticia DESC LIMIT 4";
                 $rst = UtilDB::ejecutaConsulta($sql);
                 $count = 1;
                 if ($rst->rowCount() > 0) {
@@ -106,12 +106,12 @@ $rst = NULL;
                 ?>                
             </div>
             <div class="row top-buffer" id="banners">
-                <div class="col-sm-12 col-md-12" style="margin-bottom:20px;">
-                    <div class="col-sm-6 col-md-6"><img src="img/videoteca.gif"  alt="" class="img-responsive"/></div>
-                    <div class="col-sm-6 col-md-6"><img src="img/galeria.gif" alt="" class="img-responsive"/></div>
+                <div class="col-sm-12 col-md-12" style="margin-top: 10px;" >
+                    <div class="col-sm-6 col-md-6"><img src="img/indice/videoteca.gif"  alt="" class="img-responsive"/></div>
+                    <div class="col-sm-6 col-md-6"><img src="img/indice/galeria.gif" alt="" class="img-responsive"/></div>
                 </div>
             </div>
-            <div class="row top-buffer" id="banners">
+           <!-- <div class="row top-buffer" id="banners">
                 <div class="col-xs-6 col-sm-3 col-md-3 ">
                     <img src="Recursos/boton_generico.jpg" alt="" class="img-responsive"/>
                 </div>
@@ -128,7 +128,7 @@ $rst = NULL;
                 <div class="clearfix visible-xs-block"></div>
                 <div class="clearfix visible-md-block"></div>
                 <div class="clearfix visible-sm-block"></div>
-            </div>
+            </div>-->
             <div class="row">
                 <div class="col-md-12">
                     <div class="modal fade" id="mDetalleBoletin" tabindex="-1" role="dialog" aria-labelledby="mDetalleBoletinLabel" aria-hidden="true">

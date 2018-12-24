@@ -1,5 +1,5 @@
-<?php 
-$origin = "directorio"; 
+<?php
+$origin = "directorio";
 require_once 'contador_visitas.php';
 ?>
 <!DOCTYPE html>
@@ -54,7 +54,7 @@ require_once 'contador_visitas.php';
             .trailer_box .desc h2 {
                 color: #fff;
             }
-            
+
             h2 {
                 font-size: 14px;
                 line-height: 20px;
@@ -73,69 +73,75 @@ require_once 'contador_visitas.php';
                     <div class="col-md-12">
                         <h1 class="text-center text-muted">Directorio</h1>
                     </div>
-                                        <div class="col-md-12">
-                       
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>   
-                                <div class="desc">
-                                    <div class="subtitle">Secretaría General</div>
-                                    <div class="line"></div>
-                                </div>
+                    <div class="col-md-12">
+
+                        <div class="trailer_box">
+                            <img class="img-responsive img-circle center-block" src="../img/directorio/foto_secretario.jpg"/>   
+                            <div class="desc">
+                                <div class="subtitle">Secretaría General</div>
+                                <div class="line"></div>
                             </div>
-                            <h2>Candelario García Torres</h2>
-                       
-                 
-                
-     
+                        </div>
+                        <h2>Candelario García Torres</h2>
                     </div>
                     <div class="col-md-12">
 
+                        <div class="col-sm-3">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_cargo1.jpg"/>  
+                                <div class="desc">
+                                    <div class="subtitle">Cargo</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Alejandro Gallegos Ramírez</h2>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_cargo2.jpg"/> 
+                                <div class="desc">
+                                    <div class="subtitle">Cargo</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Jesús Ulín Ramos</h2>
+                        </div>
                         <div class="col-sm-3 ">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>  
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_cargo3.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Cargo</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre....</h2>
+                            <h2>Verónica Mayorga Taracena</h2>
                         </div>
-                        <div class="col-sm-3  ">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/> 
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_cargo4.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Cargo</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre....</h2>
-                        </div>
-                        <div class="col-sm-3 ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">Cargo</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>Nombre</h2>
-                        </div>
-                                                <div class="col-sm-3  ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">Cargo</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>Nombre</h2>
+                            <h2>Russel García Hernández</h2>
                         </div>
                     </div>
                     <div class="col-md-12">
 
-                        <div class="col-sm-3 ">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_cargo5.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">Cargo</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Esteban Candelario Cámara Sarracino</h2>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Cargo</div>
                                     <div class="line"></div>
@@ -145,7 +151,7 @@ require_once 'contador_visitas.php';
                         </div>
                         <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Cargo</div>
                                     <div class="line"></div>
@@ -153,266 +159,254 @@ require_once 'contador_visitas.php';
                             </div>
                             <h2>Nombre...</h2>
                         </div>
-                        <div class="col-sm-3 ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">Cargo</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>Nombre...</h2>
-                        </div>
-                                                <div class="col-sm-3  ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">Cargo</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>Nombre</h2>
+                        <div class="col-sm-3">
+
                         </div>
                     </div>
-                    
-                    
-                   
+
                     <div class="col-md-12">
-                        <h1 class="text-center text-muted">Coordinaciones</h1>
+                        <h1 class="text-center text-muted">Delegados</h1>
                     </div>
                     <div class="col-md-12">
-                        <div class="col-sm-3  ">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Plantel 1</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>Engelbert Javier Hernández Hernández</h2>
                         </div>
-                        <div class="col-sm-3 ">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">plantel 2</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>Emiliano Cruz Martínez</h2>
                         </div>
-                        <div class="col-sm-3  ">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_plantel3.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Plantel 3</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>Esteban Candelario Camara Sarracino</h2>
                         </div>
-                        <div class="col-sm-3 ">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Plantel 4</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>Alondra Romero de la Cruz</h2>
                         </div>
                     </div>
-                    
+
                     <div class="col-md-12">
-                        <div class="col-sm-3  ">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Plantel 5</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>Hugo Enrique Trinidad Collado </h2>
                         </div>
-                        <div class="col-sm-3 ">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_plantel6.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">plantel 6</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>Alejandro Gallego Ramírez</h2>
                         </div>
-                        <div class="col-sm-3  ">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
-                                    <div class="subtitle">Plantel 7</div>
+                                    <div class="subtitle">Plantel 7(Matutino)</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>Elisa López Cruz</h2>
                         </div>
-                        <div class="col-sm-3 ">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">Plantel 7 (Vespertino)</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Esmeralda Correa Cornelio</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-sm-3">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Plantel 8</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>Sergio David Olán Cornelio</h2>
                         </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="col-sm-3  ">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
-                                    <div class="subtitle">Plantel 9</div>
+                                    <div class="subtitle">plantel 9</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>José Alfredo Magaña López</h2>
                         </div>
-                        <div class="col-sm-3 ">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
-                                    <div class="subtitle">plantel 10</div>
+                                    <div class="subtitle">Plantel 10</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>Josué Hernández Vidal</h2>
                         </div>
-                        <div class="col-sm-3  ">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Plantel 11</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>Ignacio Santiago Gallegos</h2>
                         </div>
-                        <div class="col-sm-3 ">
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Plantel 12</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>Cecilia Reyes López</h2>
                         </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="col-sm-3  ">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
-                                    <div class="subtitle">Plantel 13</div>
+                                    <div class="subtitle">plantel 13</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>José Manuel Torres Ruíz</h2>
                         </div>
-                        <div class="col-sm-3 ">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_plantel14.jpg"/>
                                 <div class="desc">
-                                    <div class="subtitle">plantel 14</div>
+                                    <div class="subtitle">Plantel 14</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>Jesús Ulín Ramos</h2>
                         </div>
-                        <div class="col-sm-3  ">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Plantel 15</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>Fernando Lázaro Gómez Lázaro</h2>
                         </div>
-                        <div class="col-sm-3 ">
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Plantel 16</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>Jaime Germán Córdova Cruz</h2>
                         </div>
-                    </div>
-                                        <div class="col-md-12">
-                        <div class="col-sm-3  ">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
-                                    <div class="subtitle">Plantel 17</div>
+                                    <div class="subtitle">plantel 17</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>Rosendo Félix Montero</h2>
                         </div>
-                        <div class="col-sm-3 ">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
-                                    <div class="subtitle">plantel 18</div>
+                                    <div class="subtitle">Plantel 18</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>Darvelio Morales Vidal</h2>
                         </div>
-                        <div class="col-sm-3  ">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Plantel 19</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>Laura del Carmen Coleaza Correa</h2>
                         </div>
-                        <div class="col-sm-3 ">
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Plantel 20</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>Aldo Alexis Hernández Hernández</h2>
                         </div>
-                    </div>
-                                        <div class="col-md-12">
-                        <div class="col-sm-3  ">
+                        <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/dependencias/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
-                                    <div class="subtitle">Plantel 21</div>
+                                    <div class="subtitle">Dirección General</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre</h2>
+                            <h2>Julio César Hernández López</h2>
                         </div>
-                        <div class="col-sm-3 ">
+                        <div class="col-sm-3">
 
                         </div>
-                        <div class="col-sm-3  ">
-
-                        </div>
-                        <div class="col-sm-3 ">
+                        <div class="col-sm-3">
 
                         </div>
                     </div>
-    
+
 
 
 

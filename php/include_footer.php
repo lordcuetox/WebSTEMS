@@ -7,8 +7,8 @@ if (isset($origin) && $origin != "") {
 ?>
 <div class="row top-buffer" id="contacto">
     <div class="col-md-12">
-        <span class="visible-md visible-lg"> <img src="<?php echo($path); ?>Recursos/titulo_mapa.png" alt="" class="img-responsive"/></span>
-        <span class="visible-xs visible-sm text-center"><img src="<?php echo($path); ?>Recursos/titulo_mapa.png" alt="" class="img-responsive"/></span>
+        <span class="visible-md visible-lg"> <img src="<?php echo($path); ?>img//titulo_mapa.png" alt="" class="img-responsive"/></span>
+        <span class="visible-xs visible-sm text-center"><img src="<?php echo($path); ?>img/titulo_mapa.png" alt="" class="img-responsive"/></span>
     </div>
     <div class="clearfix visible-md-block"></div>
     <div class="col-md-12">
@@ -18,7 +18,7 @@ if (isset($origin) && $origin != "") {
     <div class="col-md-12">
         <div class="row" style="background-color:#3B3B3B">
             <div class="col-md-3 text-left">
-                <img src="<?php echo($path); ?>Recursos/logo_stems_inferior.png" alt="STEMS"/>
+                <img src="<?php echo($path); ?>img/logo_stems_inferior.png" alt="STEMS"/>
             </div>
             <div class="col-md-3">
                 <ul style="list-style: none;text-transform: uppercase; color:#FFFEFF;">
