@@ -43,10 +43,10 @@ if (isset($origin) && $origin != "") {
                                     <ul class="dropdown-menu">
                                         <li <?php echo($origin == "historia" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>historia.php">Historia</a></li>
                                 
-                                        <li><a href="#">¿Quiénes somos?</a></li>
-                                        <li><a href="#">Misión</a></li>
-                                        <li><a href="#">Visión</a></li>
-                                        <li><a href="#">Objetivos</a></li>
+             <li <?php echo($origin == "quienes_somos" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>quienes_somos.php">¿Quiénes Somos?</a></li>
+                                        <li <?php echo($origin == "mision" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>mision.php">Misión</a></li>
+                                        <li <?php echo($origin == "vision" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>vision.php">Visión</a></li>
+                                        <li <?php echo($origin == "objetivos" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>objetivos.php">Objetivos</a></li>
                                     </ul> 
 
 

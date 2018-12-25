@@ -1,15 +1,15 @@
 <?php 
-$origin = "historia"; 
+$origin = "objetivos"; 
 require_once 'contador_visitas.php';
 ?>
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Sitio oficial del STEMS | Historia</title>
+        <title>Sitio oficial del STEMS | Objetivos</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="STEMS" />
-        <meta name="description" content="Sitio oficial del STEMS. Mensaje" />
+        <meta name="description" content="Sitio oficial del STEMS. Objetivos" />
         <!-- IE -->
         <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico" />
         <!-- other browsers -->
@@ -85,7 +85,7 @@ require_once 'contador_visitas.php';
                 <div class="trailer_box">
 
                     <div class="desc">
-                        <div class="subtitle">Historia</div>
+                        <div class="subtitle">Objetivos</div>
                         <div class="line"></div>
 
                     </div>
@@ -97,11 +97,13 @@ require_once 'contador_visitas.php';
                                 
                 
                 <div class="col-md-10 col-md-offset-1 semblanza">
-                    
-
-                    <p class="text-justify">El Colegio de Estudios científicos y Tecnológicos de Tabasco (CECyTE), nace como una necesidad del sector productivo y de servicios, tanto de la propia entidad federativa, así como del resto del territorio nacional, el cual es creado mediante un convenio de coordinación para la Creación, Operación y Apoyo Financiero de éste, celebrado entre la Secretaria de Educación Pública, representada por el titular C. Lic. Ernesto Zedillo Ponce de León y el Gobierno del Estado de Tabasco  representado por el C. Gobernador Manuel Gurria Ordoñez, gobernador constitucional y que a través del H. Congreso del Estado se hizo publicar en el diario oficial la ley orgánica que lo crea como un Organismo Público Descentralizado del Estado, con personalidad jurídica y patrimonios propios y de esta forma le dé la validez y legalidad a todos los actos que el Colegio ejecuta, atendiendo las disposiciones emanadas del Convenio de Coordinación del Colegio de Estudios Científicos y Tecnológicos del Estado de Tabasco (CECyTE), como integrante de un Subsistema de Educación Media Superior, Tecnológica de carácter bivalente, que de acuerdo con el plan nacional  de desarrollo, sociedad y gobierno tienen la responsabilidad histórica de cimentar las bases educativas para el México del siglo XXI, realizando un esfuerzo constante y vigoroso que consolide los cambios y asegure que la educación  se convierta en un apoyo decisivo para el desarrollo. En este orden de ideas, las partes contratantes señalan que no tomaran ninguna  acción individual o colectiva que entorpezca la continuidad de los programas de trabajo y labores estudiantiles, dado a que sus principales líneas de acción, consisten en la necesidad de fortalecer el sistema de educación tecnológica mediante el mejoramiento de su calidad académica, la multiplicación de opciones formativas en ese campo, la flexibilización curricular y una más estrecha vinculación de este modelo educativo con los requerimientos del sector productivo de bienes y servicios y con las economías regionales.</p></div>
-                    <p class="text-justify"></p></div>
-                    <p class="text-justify"></p>
+  
+                    <p class="text-justify">Servir y asistir con eficacia y responsabilidad a la base trabajadora que integra nuestro gremio.</p> 
+                    <p class="text-justify">Brindar asesoría jurídica y respaldo a quienes lo requieran.</p>
+                    <p class="text-justify">Promover la superación personal y colectiva de quienes integran la organización, con el propósito de mejorar nuestro servicio educativo hacia la sociedad.</p>
+                    <p class="text-justify">Generar espacios de libre expresión, atención e intercambio de experiencias, saberes e inquietudes.</p>
+                    <p class="text-justify">Fungir como vínculo entre las autoridades educativas y los trabajadores de la educación, a fin de hacer valer sus derechos y opiniones.</p>
+                </div>
          <?php require_once 'include_footer.php'; ?>
         </div>
                  
