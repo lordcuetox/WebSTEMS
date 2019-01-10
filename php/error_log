@@ -1,0 +1,36 @@
+[23-Dec-2018 01:22:13 UTC] PHP Notice:  Undefined variable: cnx in /home/l9h7w72zgbxo/public_html/clases/UtilDB.php on line 30
+[23-Dec-2018 01:22:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/l9h7w72zgbxo/public_html/clases/UtilDB.php:55
+Stack trace:
+#0 /home/l9h7w72zgbxo/public_html/index.php(34): UtilDB::ejecutaConsulta('SELECT * FROM e...')
+#1 {main}
+  thrown in /home/l9h7w72zgbxo/public_html/clases/UtilDB.php on line 55
+[23-Dec-2018 01:22:13 UTC] PHP Notice:  Undefined variable: cnx in /home/l9h7w72zgbxo/public_html/clases/UtilDB.php on line 30
+[23-Dec-2018 01:22:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/l9h7w72zgbxo/public_html/clases/UtilDB.php:55
+Stack trace:
+#0 /home/l9h7w72zgbxo/public_html/index.php(34): UtilDB::ejecutaConsulta('SELECT * FROM e...')
+#1 {main}
+  thrown in /home/l9h7w72zgbxo/public_html/clases/UtilDB.php on line 55
+[23-Dec-2018 01:39:42 UTC] PHP Notice:  Undefined variable: cnx in /home/l9h7w72zgbxo/public_html/clases/UtilDB.php on line 30
+[23-Dec-2018 01:39:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/l9h7w72zgbxo/public_html/clases/UtilDB.php:55
+Stack trace:
+#0 /home/l9h7w72zgbxo/public_html/index.php(34): UtilDB::ejecutaConsulta('SELECT * FROM e...')
+#1 {main}
+  thrown in /home/l9h7w72zgbxo/public_html/clases/UtilDB.php on line 55
+[23-Dec-2018 01:45:27 UTC] PHP Notice:  Undefined variable: cnx in /home/l9h7w72zgbxo/public_html/clases/UtilDB.php on line 30
+[23-Dec-2018 01:45:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/l9h7w72zgbxo/public_html/clases/UtilDB.php:55
+Stack trace:
+#0 /home/l9h7w72zgbxo/public_html/index.php(34): UtilDB::ejecutaConsulta('SELECT * FROM e...')
+#1 {main}
+  thrown in /home/l9h7w72zgbxo/public_html/clases/UtilDB.php on line 55
+[23-Dec-2018 01:45:36 UTC] PHP Notice:  Undefined variable: cnx in /home/l9h7w72zgbxo/public_html/clases/UtilDB.php on line 30
+[23-Dec-2018 01:45:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/l9h7w72zgbxo/public_html/clases/UtilDB.php:55
+Stack trace:
+#0 /home/l9h7w72zgbxo/public_html/index.php(34): UtilDB::ejecutaConsulta('SELECT * FROM e...')
+#1 {main}
+  thrown in /home/l9h7w72zgbxo/public_html/clases/UtilDB.php on line 55
+[23-Dec-2018 01:47:09 UTC] PHP Notice:  Undefined variable: cnx in /home/l9h7w72zgbxo/public_html/clases/UtilDB.php on line 30
+[23-Dec-2018 01:47:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/l9h7w72zgbxo/public_html/clases/UtilDB.php:55
+Stack trace:
+#0 /home/l9h7w72zgbxo/public_html/index.php(34): UtilDB::ejecutaConsulta('SELECT * FROM e...')
+#1 {main}
+  thrown in /home/l9h7w72zgbxo/public_html/clases/UtilDB.php on line 55

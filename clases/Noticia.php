@@ -60,7 +60,7 @@ class Noticia {
         $this->foto3 = "";
         $this->fechaGrabo = null;
         $this->fechaModifico = null;
-        $this->activo = false;
+        $this->activo = true;
         $this->_existe = false;
     }
 

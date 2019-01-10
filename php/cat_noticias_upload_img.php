@@ -39,10 +39,10 @@ if (isset($_POST['xAccion2'])) {
                 $valor = (substr($target_file_new, 3, strlen($target_file_new)));
 
                 if ($num_imagen == 0) {
-                    $sql = "UPDATE noticias SET foto_portada = '" . $valor . "' WHERE cve_noticia = $cve_noticia";
-                } else {
-                    $sql = "UPDATE noticias SET foto" . $num_imagen . " = '" . $valor . "' WHERE cve_noticia = $cve_noticia";
-                }
+                    $sql = "UPDATE noticias SET fecha_modifico=NOW(), foto_portada = '" . $valor . "' WHERE cve_noticia = $cve_noticia";
+                    } else {
+                    $sql = "UPDATE noticias SET fecha_modifico=NOW(), foto" . $num_imagen . " = '" . $valor . "' WHERE cve_noticia = $cve_noticia";
+                    }
 
                 $count = UtilDB::ejecutaSQL($sql);
 
@@ -51,6 +51,7 @@ if (isset($_POST['xAccion2'])) {
                     $exito = true;
                 } else {
                     $msg.= "Lo sentimos, hubo un error SQL UPDATE.\n";
+                    
                     $exito = false;
                 }
             } else {
