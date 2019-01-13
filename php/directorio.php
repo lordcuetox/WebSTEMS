@@ -78,87 +78,82 @@ require_once 'contador_visitas.php';
                         <div class="trailer_box">
                             <img class="img-responsive img-circle center-block" src="../img/directorio/foto_secretario.jpg"/>   
                             <div class="desc">
-                                <div class="subtitle">Secretaría General</div>
+                                <div class="subtitle">Secretario General</div>
                                 <div class="line"></div>
                             </div>
                         </div>
                         <h2>Candelario García Torres</h2>
                     </div>
                     <div class="col-md-12">
-
-                        <div class="col-sm-3">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_cargo1.jpg"/>  
-                                <div class="desc">
-                                    <div class="subtitle">Cargo</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>Alejandro Gallegos Ramírez</h2>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_cargo2.jpg"/> 
-                                <div class="desc">
-                                    <div class="subtitle">Cargo</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>Jesús Ulín Ramos</h2>
-                        </div>
-                        <div class="col-sm-3 ">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_cargo3.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">Cargo</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>Verónica Mayorga Taracena</h2>
-                        </div>
                         <div class="col-sm-3">
                             <div class="trailer_box">
                                 <img class="img-responsive img-circle center-block" src="../img/directorio/foto_cargo4.jpg"/>
                                 <div class="desc">
-                                    <div class="subtitle">Cargo</div>
+                                    <div class="subtitle">Secretario de Organización</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
                             <h2>Russel García Hernández</h2>
                         </div>
-                    </div>
-                    <div class="col-md-12">
-
-                        <div class="col-sm-3">
+                                                <div class="col-sm-3">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_cargo2.jpg"/> 
+                                <div class="desc">
+                                    <div class="subtitle">Secretario de Conflictos</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Jesús Ulín Ramos</h2>
+                        </div>
+                                                <div class="col-sm-3">
                             <div class="trailer_box">
                                 <img class="img-responsive img-circle center-block" src="../img/directorio/foto_cargo5.jpg"/>
                                 <div class="desc">
-                                    <div class="subtitle">Cargo</div>
+                                    <div class="subtitle">Secretario de Previsión Social</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
                             <h2>Esteban Candelario Cámara Sarracino</h2>
                         </div>
+
+
+                        <div class="col-sm-3 ">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_cargo3.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">Secretaria de Cultura Recreación y Deporte</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Verónica Mayorga Taracena</h2>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-sm-3"></div>
+                                                <div class="col-sm-3">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_cargo1.jpg"/>  
+                                <div class="desc">
+                                    <div class="subtitle">Secretario de prensa y propaganda</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2>Alejandro Gallegos Ramírez</h2>
+                        </div>
+
                         <div class="col-sm-3">
                             <div class="trailer_box">
                                 <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
                                 <div class="desc">
-                                    <div class="subtitle">Cargo</div>
+                                    <div class="subtitle">Secretario de Actas y Acuerdos</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>Nombre...</h2>
+                            <h2>Engelbert Javier Hernández Hernández</h2>
                         </div>
-                        <div class="col-sm-3">
-                            <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
-                                <div class="desc">
-                                    <div class="subtitle">Cargo</div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <h2>Nombre...</h2>
-                        </div>
+                          
+                     
                         <div class="col-sm-3">
 
                         </div>

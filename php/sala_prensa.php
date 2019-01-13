@@ -70,7 +70,7 @@ $anio = (int) date("Y");
                                 <div class="col-sm-4 col-md-4">                            
                                     <div class="row redes_sociales">
                                         <div class="col-xs-6 col-sm-12 col-md-6 col-lg-4">
-                                            <img src="../img/facebook_circular.jpg" alt="Facebook"/>
+                                            <a href="https://www.facebook.com/stems.cecytetabasco.7" target="_blank"> <img src="../img/facebook_circular.jpg" alt="Facebook"/> </a>
                                         </div>
                                         <div class="col-xs-6 col-sm-12 col-md-6 col-lg-8" >
                                             <p>Facebook</p>
@@ -99,7 +99,7 @@ $anio = (int) date("Y");
                         
                         
                         <?php
-                $sql = "SELECT foto_portada,titulo,noticia_corta,cve_noticia,date_format(fecha_grabo,\"%d-%m-%Y\")as fecha_grabo FROM noticias WHERE foto_portada IS NOT NULL AND activo = 1 ORDER BY cve_noticia";
+                $sql = "SELECT foto_portada,titulo,noticia_corta,cve_noticia,date_format(fecha_grabo,\"%d-%m-%Y\")as fecha_grabo FROM noticias WHERE foto_portada IS NOT NULL AND activo = 1 ORDER BY  cve_noticia desc";
                 $rst = UtilDB::ejecutaConsulta($sql);
                 $count = 1;
                 if ($rst->rowCount() > 0) {
@@ -111,7 +111,7 @@ $anio = (int) date("Y");
                             $html .= "<div class=\"col-sm-5 col-md-5 col-lg-5\">";
                              $html .= "<figure>";
                             $html .= "<img src = \"" ."..\\".$row['foto_portada'] . "\" alt = \"" . $row['titulo'] . "\" class = \"img-responsive\"/>";
-                               $html .= " <figcaption>".($row['fecha_grabo'])."</figcaption>";
+                               $html .= " <figcaption>"."</figcaption>";
                               $html .= "</figure></div>";
                               $html .= "<div class=\"col-sm-7 col-md-7 col-lg-7\">";
                               $html .= "<p class=\"text-justify\"><strong>".$row['titulo']."</strong> </p>";

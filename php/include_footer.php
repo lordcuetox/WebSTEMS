@@ -32,9 +32,9 @@ if (isset($origin) && $origin != "") {
                 </ul>
             </div>
             <div class="col-md-3" style="color:#FFFEFF">
-                <p>Dirección: Por definir, Centro, Tabasco.</p>
-                <p>Teléfono: Por definir</p>
-                <p>Correo electrónico: Por definir</p>
+                <p>  </p>
+                <p>Correo:stemscecyte@gmail.com</p>
+                <p>Dirección: Calle Tulipanes No. 111, Col. López Mateos, Centro, Tabasco.</p>
             </div>
             <div class="col-md-3 text-right">
                

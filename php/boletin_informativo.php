@@ -73,14 +73,14 @@ if (isset($_GET['id'])) {
 
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner" role="listbox">
-                                    <div class="item active">
+                                     <div class="item active">
                                         <img src="../<?php echo($noticia->getFotoPortada()); ?>" alt="<?php echo(str_replace('"', "'", $noticia->getTitulo())); ?> - Foto de portada">
                                     </div>
                                     <div class="item">
-                                        <img src="<?php echo($noticia->getFoto1()); ?>" alt="<?php echo(str_replace('"', "'", $noticia->getTitulo())); ?> - Imagen 2">
+                                        <img src="../<?php echo($noticia->getFoto1()); ?>" alt="<?php echo(str_replace('"', "'", $noticia->getTitulo())); ?> - Imagen 1">
                                     </div>
                                     <div class="item">
-                                        <img src="<?php echo($noticia->getFoto2()); ?>" alt="<?php echo(str_replace('"', "'", $noticia->getTitulo())); ?> - Imagen 2">
+                                        <img src="../<?php echo($noticia->getFoto2()); ?>" alt="<?php echo(str_replace('"', "'", $noticia->getTitulo())); ?> - Imagen 2">
                                     </div>
                                 </div>
                                 <?php
