@@ -17,7 +17,7 @@ if (isset($origin) && $origin != "") {
             <div class="col-md-12 text-right" style="margin-top: 100px ">
                 <a href="https://www.youtube.com" target="_blank"><img src="<?php echo($path); ?>img/indice/youtube-icon.png" alt="Youtube"/></a>&nbsp;&nbsp;
                 <a href="https://www.facebook.com/stems.cecytetabasco.7" target="_blank"><img src="<?php echo($path); ?>img/indice/facebook-icon.png" alt="Facebook"/></a>&nbsp;&nbsp;
-                <a href="https://twitter.com/" target="_blank"><img src="<?php echo($path); ?>img/indice/twitter-icon.png" alt="Twitter"/></a>
+                <a href="https://twitter.com/stemscecyte" target="_blank"><img src="<?php echo($path); ?>img/indice/twitter-icon.png" alt="Twitter"/></a>
             </div>
             
             
@@ -55,7 +55,6 @@ if (isset($origin) && $origin != "") {
 
                                 <li <?php echo($origin == "mensaje" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>mensaje.php">Mensaje del Secretario General</a></li>
                                 <li <?php echo($origin == "directorio" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>directorio.php">Directorio</a></li>
-                                <li <?php echo($origin == "dependencias" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php" : ""); ?>index.php">Jurídico</a></li>
                                 <li <?php echo($origin == "tramites" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>index.php">Trabajo Sindical</a></li>
                                 <li <?php echo($origin == "sala_prensa" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>sala_prensa.php">Sala de Prensa</a></li>
                                 <li <?php echo($origin == "transparencia" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>index.php">Convenios</a></li>

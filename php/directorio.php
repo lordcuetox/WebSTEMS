@@ -195,7 +195,7 @@ require_once 'contador_visitas.php';
                         </div>
                         <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_plantel4.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Plantel 4</div>
                                     <div class="line"></div>
@@ -228,7 +228,7 @@ require_once 'contador_visitas.php';
                         </div>
                         <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_plantel7mat.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Plantel 7(Matutino)</div>
                                     <div class="line"></div>
@@ -260,13 +260,13 @@ require_once 'contador_visitas.php';
                         </div>
                         <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_plantel9.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">plantel 9</div>
                                     <div class="line"></div>
                                 </div>
                             </div>
-                            <h2>José Alfredo Magaña López</h2>
+                            <h2>Fany Damasco</h2>
                         </div>
                         <div class="col-sm-3">
                             <div class="trailer_box">
@@ -280,7 +280,7 @@ require_once 'contador_visitas.php';
                         </div>
                         <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_plantel11.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Plantel 11</div>
                                     <div class="line"></div>
@@ -364,7 +364,7 @@ require_once 'contador_visitas.php';
                         </div>
                         <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_plantel19.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Plantel 19</div>
                                     <div class="line"></div>
@@ -384,6 +384,16 @@ require_once 'contador_visitas.php';
                             </div>
                             <h2>Aldo Alexis Hernández Hernández</h2>
                         </div>
+                            <div class="col-sm-3">
+                            <div class="trailer_box">
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
+                                <div class="desc">
+                                    <div class="subtitle">Plantel 21</div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <h2></h2>
+                        </div>
                         <div class="col-sm-3">
                             <div class="trailer_box">
                                 <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
@@ -394,9 +404,7 @@ require_once 'contador_visitas.php';
                             </div>
                             <h2>Julio César Hernández López</h2>
                         </div>
-                        <div class="col-sm-3">
-
-                        </div>
+                      
                         <div class="col-sm-3">
 
                         </div>

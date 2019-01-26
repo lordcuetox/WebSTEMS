@@ -4,9 +4,15 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/D:/Programas_instalados/xampp/htdocs/WebSTEMS/php/include_header.php</file>
+            <file>file:/D:/Programas_instalados/xampp/htdocs/WebSTEMS/css/municipio1.css</file>
             <file>file:/D:/Programas_instalados/xampp/htdocs/WebSTEMS/php/sala_prensa.php</file>
+            <file>file:/D:/Programas_instalados/xampp/htdocs/WebSTEMS/php/include_footer.php</file>
             <file>file:/D:/Programas_instalados/xampp/htdocs/WebSTEMS/php/directorio.php</file>
             <file>file:/D:/Programas_instalados/xampp/htdocs/WebSTEMS/php/boletin_informativo.php</file>
+            <file>file:/D:/Programas_instalados/xampp/htdocs/WebSTEMS/php/cat_noticias.php</file>
+            <file>file:/D:/Programas_instalados/xampp/htdocs/WebSTEMS/js/maps.js</file>
+            <file>file:/D:/Programas_instalados/xampp/htdocs/WebSTEMS/clases/Noticia.php</file>
+            <file>file:/D:/Programas_instalados/xampp/htdocs/WebSTEMS/php/directorio2.php</file>
         </group>
     </open-files>
 </project-private>

@@ -81,7 +81,7 @@ $anio = (int) date("Y");
                                 <div class="col-sm-4 col-md-4">                            
                                     <div class="row redes_sociales">
                                         <div class="col-xs-6 col-sm-12 col-md-6 col-lg-4">
-                                            <img src="../img/twitter_circular.jpg" alt="Twitter"/>
+                                            <a href="https://twitter.com/stemscecyte" target="_blank">   <img src="../img/twitter_circular.jpg" alt="Twitter"/> </a>
                                         </div>
                                         <div class="col-xs-6 col-sm-12 col-md-6 col-lg-8">
                                             <p>Twitter</p>
