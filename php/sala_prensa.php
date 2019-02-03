@@ -101,19 +101,20 @@ $anio = (int) date("Y");
                         <?php
                 $sql = "SELECT foto_portada,titulo,noticia_corta,cve_noticia,date_format(fecha_grabo,\"%d-%m-%Y\")as fecha_grabo FROM noticias WHERE foto_portada IS NOT NULL AND activo = 1 ORDER BY  cve_noticia desc";
                 $rst = UtilDB::ejecutaConsulta($sql);
-                $count = 1;
+                $count = 0;
                 if ($rst->rowCount() > 0) {
                     foreach ($rst as $row) {
+                        $count=$count+1;
    
                         
                          $html .= "<div class=\"col-md-6 col-lg-6 top-buffer\">";
                            $html .= "<div class=\"row\">";
-                            $html .= "<div class=\"col-sm-5 col-md-5 col-lg-5\">";
+                            $html .= "<div class=\"col-sm-6 col-md-6 col-lg-6\">";
                              $html .= "<figure>";
                             $html .= "<img src = \"" ."..\\".$row['foto_portada'] . "\" alt = \"" . $row['titulo'] . "\" class = \"img-responsive\"/>";
                                $html .= " <figcaption>"."</figcaption>";
                               $html .= "</figure></div>";
-                              $html .= "<div class=\"col-sm-7 col-md-7 col-lg-7\">";
+                              $html .= "<div class=\"col-sm-6 col-md-6 col-lg-6\">";
                               $html .= "<p class=\"text-justify\"><strong>".$row['titulo']."</strong> </p>";
                               $html .= "<p class=\"text-justify\">".$row['noticia_corta']."...</p>";
                     $html .= "<a href = \"boletin_informativo.php?id=" . $row['cve_noticia'] . "\" class = \"btn btn-success\"><span class = \"glyphicon glyphicon-plus\"></span> Leer más</a>";
