@@ -354,7 +354,7 @@ require_once 'contador_visitas.php';
                         </div>
                         <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_plantel18.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Plantel 18</div>
                                     <div class="line"></div>

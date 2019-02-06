@@ -57,7 +57,7 @@ if (isset($origin) && $origin != "") {
                                 <li <?php echo($origin == "directorio" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>directorio.php">Directorio</a></li>
                                 <li <?php echo($origin == "tramites" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>index.php">Trabajo Sindical</a></li>
                                 <li <?php echo($origin == "sala_prensa" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>sala_prensa.php">Sala de Prensa</a></li>
-                                <li <?php echo($origin == "transparencia" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>index.php">Convenios</a></li>
+                                <li <?php echo($origin == "convenios" ? "class=\"active\"" : ""); ?>><a href="<?php echo($origin == "" ? "php/" : ""); ?>convenios.php">Convenios</a></li>
                             </ul>
                         </div>
                     </div>
