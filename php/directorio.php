@@ -250,7 +250,7 @@ require_once 'contador_visitas.php';
                     <div class="col-md-12">
                         <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_plantel8.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Plantel 8</div>
                                     <div class="line"></div>
@@ -396,7 +396,7 @@ require_once 'contador_visitas.php';
                         </div>
                         <div class="col-sm-3">
                             <div class="trailer_box">
-                                <img class="img-responsive img-circle center-block" src="../img/directorio/perfilnuevo.jpg"/>
+                                <img class="img-responsive img-circle center-block" src="../img/directorio/foto_dg.jpg"/>
                                 <div class="desc">
                                     <div class="subtitle">Dirección General</div>
                                     <div class="line"></div>
